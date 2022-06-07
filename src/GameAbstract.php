@@ -2,13 +2,13 @@
 
 namespace GameType\Src;
 
-class GameAbstract implements GameNameInterface, GameRangInterface, GameRoleInterface {
+class GameAbstract implements GameNameInterface {
 
     /**
      * Массив для ключей переводов
      * @var array
      */
-    public $name = [];
+    private $name = [];
 
     /***
      * Возрашает человекопонятное название
@@ -18,22 +18,6 @@ class GameAbstract implements GameNameInterface, GameRangInterface, GameRoleInte
     public function getNameGame($key)
     {
         return $this->name[$key];
-    }
-
-    /**
-     * Возрашает ранги для выбранной игры
-     * @return mixed
-     */
-    public function getRangGame() {
-
-    }
-
-    /**
-     * Возрашает осовные роли для выбранной игры
-     * @return mixed
-     */
-    public function getRoleGame() {
-
     }
 
 }
