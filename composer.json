@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/gametype",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "shiroorg",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "trade-api-prototype/src": "dev-master"
+  }
+}

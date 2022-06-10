@@ -1,0 +1,44 @@
+{
+    "packages": [
+        {
+            "name": "trade-api-prototype/src",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shiroorg/trade-api-prototype.git",
+                "reference": "5add4b7b37d201c013aec97bf7844a0902444490"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shiroorg/trade-api-prototype/zipball/5add4b7b37d201c013aec97bf7844a0902444490",
+                "reference": "5add4b7b37d201c013aec97bf7844a0902444490",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "time": "2022-06-10T11:13:50+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "shiroorg",
+                    "email": "kremezion@inbox.ru"
+                }
+            ],
+            "description": "Demo project payeer trade-api-prototype",
+            "support": {
+                "source": "https://github.com/shiroorg/trade-api-prototype/tree/0.0.1"
+            },
+            "install-path": "../trade-api-prototype/src"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

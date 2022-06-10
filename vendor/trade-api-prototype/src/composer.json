@@ -1,0 +1,14 @@
+{
+  "name": "trade-api-prototype/src",
+  "description": "Demo project payeer trade-api-prototype",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shiroorg",
+      "email": "kremezion@inbox.ru"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}

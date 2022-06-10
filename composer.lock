@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c98a438e298393b636ea802b0e3f02aa",
+    "packages": [
+        {
+            "name": "trade-api-prototype/src",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shiroorg/trade-api-prototype.git",
+                "reference": "5add4b7b37d201c013aec97bf7844a0902444490"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shiroorg/trade-api-prototype/zipball/5add4b7b37d201c013aec97bf7844a0902444490",
+                "reference": "5add4b7b37d201c013aec97bf7844a0902444490",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "shiroorg",
+                    "email": "kremezion@inbox.ru"
+                }
+            ],
+            "description": "Demo project payeer trade-api-prototype",
+            "support": {
+                "source": "https://github.com/shiroorg/trade-api-prototype/tree/0.0.1"
+            },
+            "time": "2022-06-10T11:13:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "trade-api-prototype/src": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
